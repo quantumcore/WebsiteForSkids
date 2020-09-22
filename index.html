@@ -1,0 +1,63 @@
+<html>
+<head>
+<title> Tutorials For Hacking </title>
+<meta property="og:type" content="website">
+<meta property="og:title" content="Tutorials For Hacking" />
+<meta property="og:description" content="All your hacking needs, in one simple website." />
+<meta property="og:image" content="hacks.jpg" />
+</head>
+<body id="stickbodylol" style="background-color:black; background-image: url('hacks.jpg'); font-family:Arial;">
+
+<style>
+#myVideo {
+width: 60%;
+}
+
+.buttonbuglol {
+background-color: black;
+color: #00ff00;
+width: 20%;
+height: 5%;
+margin-bottom: 2%;
+}
+
+.hax {
+text-align: center;
+}
+
+.haxp {
+font-size: 40px;
+color: #00ff00;
+margin: 2%;
+}
+</style>
+
+<script>
+function stickBugLol() {
+  var x = document.getElementById("videoDiv");
+  var vid = document.getElementById("myVideo"); 
+  var sbody = document.getElementById("stickbodylol");
+  var haxp = document.getElementById("haxp");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+	vid.play();
+	sbody.style.fontFamily = "Comic Sans MS";
+	sbody.style.backgroundImage = "url('sticklol.jpg')";
+	haxp.innerHTML = "Get stick bugged lol";
+	haxp.style.color = "black";
+  }
+}
+</script>
+
+<div class="hax">
+<p class="haxp" id="haxp">Welcome To Tutorials For Hacking</p>
+<button onclick="stickBugLol()" class="buttonbuglol"> Enter Website </button>
+
+<div id="videoDiv" style="display: none;">
+<video loop id="myVideo">
+<source src="hacks.mp4" type="video/mp4">
+</video>
+</div>
+</div>
+</body>
+</html>	
