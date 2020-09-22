@@ -9,3 +9,6 @@ Click [here](http://tutorialsforhacking.rf.gd/) for a demo.
 
 ### Contact Developer
 Discord : Incognitus2#1994
+=======
+http://tutorialsforhacking.rf.gd/
+master
